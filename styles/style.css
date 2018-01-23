@@ -1,0 +1,105 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0 0 100px;
+}
+
+a {
+  font-size: small;
+  text-decoration: none;
+  color: #000;
+  opacity: 0.75;
+  margin: 0px 0px 0px 10px;
+}
+
+.nav {
+
+}
+
+img {
+  opacity: 0.75;
+  margin: 0px 0px 0px 10px;
+}
+
+img:hover {
+  opacity: 1.0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#logo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -140%);
+}
+
+#search {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#search input {
+  width: 560px;
+  height: 35px;
+}
+
+#search-button {
+  background-color: #f2f2f2;
+  border: none;
+  color: #757575;
+  top: 60%;
+  position: fixed;
+  margin-left: -70px;
+  height: 40px;
+  width: 120px;
+  transform: translate(0%, -50%);
+}
+
+#search-button:hover {
+  color: #000;
+}
+
+#lucky-button {
+  background-color: #f2f2f2;
+  border: none;
+  color: #757575;
+  top: 60%;
+  position: fixed;
+  margin-left: 70px;
+  height: 40px;
+  width: 120px;
+  transform: translate(0%, -50%);
+}
+
+#lucky-button:hover {
+  color: #000;
+}
+
+.left-container {
+  float: left;
+  margin: 0;
+  padding: 10px;
+}
+
+.right-container {
+  float: right;
+  padding: 10px;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #F0F0F0;
+}
